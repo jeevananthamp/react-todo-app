@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: "0";
+  padding: "0";
+}
+body {
+  background-color: aquamarine;
+  line-height: 1.4;
+  font: 1em sans-serif;
+}
+.container {
+  padding: 0 1rem;
+}
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: rgb(74, 175, 44);
+  padding: 7px 20px;
+  cursor: pointer;
+}
+.btn :hover {
+  background-color: cornflowerblue;
+}
